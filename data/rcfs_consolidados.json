@@ -1,0 +1,1299 @@
+[
+  {
+    "slug": "gerente",
+    "title": "Gerente",
+    "area": "Gestão Geral",
+    "mission": "Gerir a operação completa da clínica, liderando pessoas, processos, metas comerciais, resultado financeiro, experiência do cliente, conformidade operacional e evolução contínua da unidade.",
+    "principal": "Clínica funcionando com previsibilidade, equipe orientada, metas acompanhadas, caixa controlado, indicadores visíveis e decisões tomadas antes que os problemas se tornem crises.",
+    "responsibilities": [
+      "Representar e sustentar o jeito de ser da empresa, transformando cultura em rotina, postura e consequência.",
+      "Planejar metas mensais, semanais e diárias de faturamento, recebimento, produtividade, conversão, agenda, vendas internas e resultado financeiro.",
+      "Conduzir reuniões de abertura, fechamento, acompanhamento comercial, feedback individual e análise de indicadores.",
+      "Gerenciar recrutamento, seleção, admissão, demissão, férias, ponto, escala, treinamentos e desenvolvimento da equipe.",
+      "Supervisionar financeiro: caixa, banco, contas a pagar, contas a receber, boletos, notas fiscais, inadimplência, relatórios e fluxo de caixa.",
+      "Coordenar comercial, marketing, parcerias externas, campanhas, eventos, resgate de faltantes, eficiência de vendas e aproveitamento de leads.",
+      "Garantir manutenção predial, equipamentos, estoque, compras, alvarás, documentação, qualidade e controle de riscos.",
+      "Atuar em conflitos, cancelamentos, reclamações, desistências e negociações extraordinárias com clientes."
+    ],
+    "daily": [
+      "Abrir o painel de indicadores e verificar agenda, faturamento, recebimentos, pendências financeiras, faltas, comparecimentos, conversões e produtividade.",
+      "Fazer alinhamento rápido com coordenadora comercial/prime/equipe técnica para prioridades do dia.",
+      "Acompanhar caixa, contas críticas, cobranças prioritárias e movimentação bancária.",
+      "Verificar gargalos de agenda, ociosidade, retrabalho, atrasos e falhas de atendimento.",
+      "Cobrar planos de ação de vendas, relacionamento, indicação, recompra e retenção.",
+      "Registrar decisões, combinados e responsáveis por ação."
+    ],
+    "indicators": [
+      "Faturamento bruto e líquido",
+      "Lucro/resultado operacional",
+      "Recebimento e inadimplência",
+      "Conversão de avaliação em venda",
+      "Comparecimento de agendados",
+      "Produtividade por profissional",
+      "Ocupação de salas",
+      "Ticket médio",
+      "Vendas internas",
+      "Avaliações/NPS/satisfação",
+      "Cancelamentos e distratos",
+      "Cumprimento de plano de ação"
+    ],
+    "behaviors": [
+      "Liderança firme e respeitosa",
+      "Visão de dono",
+      "Decisão orientada por indicadores",
+      "Comunicação clara",
+      "Disciplina de rotina",
+      "Capacidade de cobrança sem agressividade",
+      "Postura de solução",
+      "Confidencialidade e maturidade emocional"
+    ],
+    "unacceptable": [
+      "Ignorar indicadores",
+      "Prometer sem registrar ou acompanhar",
+      "Ser omisso em conflitos",
+      "Transferir responsabilidade sem resolver",
+      "Permitir quebra de padrão sem consequência",
+      "Tratar equipe ou cliente com julgamento",
+      "Perder controle financeiro ou documental"
+    ],
+    "autonomy": "Alta autonomia para conduzir rotina operacional, reuniões, cobrança de metas, organização da equipe e planos de ação. Decisões com impacto financeiro relevante, contratações, desligamentos estratégicos, grandes negociações e exceções comerciais devem ser alinhadas ao proprietário/franqueado.",
+    "interactions": [
+      "Proprietário/franqueado",
+      "Coordenadora comercial",
+      "Prime/recepção",
+      "Auxiliar administrativo-financeiro",
+      "Nutricionista",
+      "Biomédica/esteticista/enfermeira",
+      "Marketing/redes sociais",
+      "Contabilidade",
+      "Fornecedores e prestadores"
+    ],
+    "goals30": [
+      "Conhecer toda a operação, sistemas, indicadores, equipe e gargalos críticos.",
+      "Implantar rotina diária de leitura de indicadores e reunião curta de prioridades.",
+      "Mapear riscos financeiros, comerciais e operacionais."
+    ],
+    "goals60": [
+      "Padronizar reuniões semanais, cobrança de metas, planos de ação e acompanhamento de equipe.",
+      "Organizar fluxo de caixa, inadimplência, agenda, produtividade e indicadores comerciais.",
+      "Treinar ou realocar responsabilidades críticas."
+    ],
+    "goals90": [
+      "Operar com previsibilidade de metas, agenda, financeiro e produtividade.",
+      "Apresentar plano de melhoria por área, com responsáveis e prazos.",
+      "Reduzir dependência do proprietário em decisões rotineiras."
+    ]
+  },
+  {
+    "slug": "coordenadora-comercial",
+    "title": "Coordenadora Comercial",
+    "area": "Comercial",
+    "mission": "Coordenar a força comercial da clínica, garantindo agenda qualificada, conversão, vendas, parcerias, indicações, campanhas e execução do plano de metas.",
+    "principal": "Metas comerciais batidas com método, agenda cheia, equipe direcionada, parcerias ativas, clientes resgatados e plano de ação em andamento.",
+    "responsibilities": [
+      "Desdobrar metas de venda em plano de ação individual por pessoa e por canal.",
+      "Acompanhar transformadoras/consultoras e intervir em vendas quando necessário.",
+      "Coordenar agendamentos de avaliações, consultorias e transformações.",
+      "Analisar faltas, não comparecidos, não convertidos, aniversariantes, indicações e oportunidades de recompra.",
+      "Organizar parcerias externas, eventos e ações locais para geração de demanda.",
+      "Coordenar postagens e ações comerciais alinhadas à estratégia da marca.",
+      "Apoiar gerente na criação de campanhas e na leitura de conversão, ticket médio e eficiência de vendas."
+    ],
+    "daily": [
+      "Verificar agenda do dia e do dia seguinte.",
+      "Acompanhar leads, agendamentos, comparecimentos, conversões e vendas realizadas.",
+      "Fazer reunião curta com consultoras/prime digital para prioridades comerciais.",
+      "Cobrar retorno de faltantes, não convertidos e indicações.",
+      "Registrar obstáculos e ações corretivas."
+    ],
+    "indicators": [
+      "Leads recebidos",
+      "Agendamentos",
+      "Comparecimento",
+      "Conversão",
+      "Ticket médio",
+      "Faturamento por canal",
+      "Vendas internas",
+      "Parcerias ativas",
+      "Indicações",
+      "Faltantes resgatados",
+      "Não convertidos reativados"
+    ],
+    "behaviors": [
+      "Energia comercial",
+      "Foco em meta",
+      "Escuta ativa",
+      "Capacidade de influência",
+      "Organização de funil",
+      "Boa comunicação",
+      "Coragem para cobrar",
+      "Postura colaborativa"
+    ],
+    "unacceptable": [
+      "Deixar lead sem retorno",
+      "Não acompanhar conversão",
+      "Fazer campanha sem medir resultado",
+      "Culpar equipe sem plano de ação",
+      "Prometer desconto sem regra",
+      "Não registrar combinados comerciais"
+    ],
+    "autonomy": "Autonomia média-alta para organizar rotinas comerciais, distribuir ações, cobrar metas, acompanhar funil e propor campanhas. Descontos fora da política, grandes parcerias e ações com investimento devem ser aprovados pela gerência/proprietário.",
+    "interactions": [
+      "Gerente",
+      "Consultoras",
+      "Prime digital",
+      "Prime recepção",
+      "Nutricionista",
+      "Equipe técnica",
+      "Marketing/redes sociais",
+      "Parceiros externos"
+    ],
+    "goals30": [
+      "Conhecer metas, funil, carteira, scripts e principais gargalos de conversão.",
+      "Implantar controle diário de leads, agenda e comparecimento.",
+      "Criar plano de resgate de faltantes e não convertidos."
+    ],
+    "goals60": [
+      "Aumentar previsibilidade de agenda e qualidade dos leads.",
+      "Padronizar reunião comercial e acompanhamento de metas individuais.",
+      "Ativar parcerias e rotina de indicações."
+    ],
+    "goals90": [
+      "Operar funil comercial com métricas claras e plano semanal.",
+      "Melhorar conversão, ticket médio e recompras.",
+      "Reduzir dependência do gerente na rotina comercial diária."
+    ]
+  },
+  {
+    "slug": "consultora-bem-estar-saude",
+    "title": "Consultora de Bem-Estar e Saúde",
+    "area": "Comercial / Vendas Consultivas",
+    "mission": "Realizar consultorias de bem-estar e saúde com escuta ativa, acolhimento e venda ética, conectando dores, desejos e objetivos do cliente às soluções adequadas da clínica.",
+    "principal": "Clientes bem atendidos, confiança construída, propostas apresentadas com clareza, conversões realizadas e não convertidos acompanhados com método.",
+    "responsibilities": [
+      "Preparar-se antes da consultoria analisando histórico, origem do lead, objetivo declarado e interações anteriores.",
+      "Receber o cliente com postura acolhedora, profissional e sem julgamento.",
+      "Conduzir diagnóstico consultivo, entendendo objetivo, dores, urgência, histórico e objeções.",
+      "Apresentar solução adequada, explicando benefícios, plano, investimento e próximos passos.",
+      "Registrar informações relevantes no sistema.",
+      "Confirmar agendamentos, reduzir faltas e manter contato com não comparecidos.",
+      "Reativar não convertidos com abordagem respeitosa, ofertas e alternativas.",
+      "Apoiar vendas de serviços, produtos e tratamentos, mantendo ética e clareza."
+    ],
+    "daily": [
+      "Checar agenda de consultorias e preparar cada atendimento.",
+      "Enviar lembretes e estímulos aos agendados.",
+      "Organizar sala, materiais, degustação e acolhimento.",
+      "Realizar consultorias dentro do tempo padrão.",
+      "Registrar motivos de perda, objeções e próximos contatos.",
+      "Retornar faltantes e não convertidos."
+    ],
+    "indicators": [
+      "Agendamentos de consultoria",
+      "Comparecimento",
+      "Conversão",
+      "Ticket médio",
+      "Valor vendido",
+      "Motivos de perda",
+      "Reagendamento de faltantes",
+      "Reativação de não convertidos",
+      "Satisfação do cliente"
+    ],
+    "behaviors": [
+      "Escuta ativa",
+      "Empatia sem julgamento",
+      "Postura confiante",
+      "Comunicação clara",
+      "Boa apresentação pessoal",
+      "Persistência com elegância",
+      "Organização de follow-up",
+      "Foco em solução"
+    ],
+    "unacceptable": [
+      "Pressionar cliente de forma antiética",
+      "Julgar corpo, condição ou histórico do cliente",
+      "Deixar não convertido sem retorno",
+      "Não registrar informações da consultoria",
+      "Prometer resultado impossível",
+      "Desrespeitar política comercial"
+    ],
+    "autonomy": "Autonomia para conduzir consultorias, apresentar soluções dentro da política comercial e fazer follow-up. Negociações fora da regra, descontos extraordinários e exceções contratuais devem ser aprovados pela coordenação/gerência.",
+    "interactions": [
+      "Coordenadora comercial",
+      "Prime digital",
+      "Prime recepção",
+      "Nutricionista",
+      "Equipe técnica",
+      "Gerente"
+    ],
+    "goals30": [
+      "Dominar portfólio, abordagem, scripts, objeções e sistema.",
+      "Realizar consultorias acompanhadas e registrar aprendizado.",
+      "Implantar rotina de confirmação e follow-up."
+    ],
+    "goals60": [
+      "Atingir padrão mínimo de conversão e qualidade de atendimento.",
+      "Mapear principais objeções e construir respostas consultivas.",
+      "Melhorar comparecimento e retomada de não convertidos."
+    ],
+    "goals90": [
+      "Atuar com autonomia em consultorias e vendas.",
+      "Entregar metas de conversão e ticket médio acordadas.",
+      "Ser referência em acolhimento, confiança e registro comercial."
+    ]
+  },
+  {
+    "slug": "prime",
+    "title": "Prime / Recepção",
+    "area": "Atendimento / Experiência do Cliente",
+    "mission": "Garantir uma experiência de chegada, permanência e saída organizada, acolhedora e profissional, conectando cliente, agenda, equipe, caixa e informações da clínica.",
+    "principal": "Recepção funcionando sem ruído, clientes acolhidos, agenda organizada, caixa conferido, mensagens respondidas e pendências encaminhadas.",
+    "responsibilities": [
+      "Recepcionar clientes com cordialidade, sorriso, identificação pelo nome e postura acolhedora.",
+      "Operar agenda, confirmações, faltas, remarcações, esperas, finalizações e encaixes.",
+      "Atender telefone e WhatsApp com prontidão, clareza e registro.",
+      "Operar caixa, receber valores, conferir débitos, anexar comprovantes e fazer fechamento.",
+      "Acompanhar sessões pendentes e estimular agendamentos.",
+      "Organizar fichas, documentos, recepção, degustações, café/água/chá e materiais.",
+      "Direcionar clientes para profissionais e salas, informando tempo de espera.",
+      "Apoiar vendas simples de produtos, serviços e reagendamentos."
+    ],
+    "daily": [
+      "Conferir agenda e confirmações do dia.",
+      "Atualizar status no sistema.",
+      "Receber clientes e direcionar atendimentos.",
+      "Responder WhatsApp e telefone.",
+      "Conferir débitos e movimentação de caixa.",
+      "Emitir relatórios de sessões pendentes/faltas.",
+      "Manter recepção limpa, organizada e acolhedora."
+    ],
+    "indicators": [
+      "Tempo de resposta",
+      "Taxa de confirmação",
+      "Faltas e remarcações",
+      "Sessões pendentes",
+      "Erros de agenda",
+      "Conferência de caixa",
+      "Avaliações do atendimento",
+      "Vendas simples/reagendamentos"
+    ],
+    "behaviors": [
+      "Cordialidade",
+      "Organização",
+      "Atenção aos detalhes",
+      "Discrição financeira",
+      "Comunicação objetiva",
+      "Agilidade sem perder cuidado",
+      "Senso de prioridade",
+      "Postura acolhedora"
+    ],
+    "unacceptable": [
+      "Deixar cliente esperando sem informação",
+      "Responder com frieza ou impaciência",
+      "Errar agenda por falta de conferência",
+      "Comentar débitos de forma constrangedora",
+      "Não registrar mudanças",
+      "Manter recepção desorganizada"
+    ],
+    "autonomy": "Autonomia para organizar recepção, confirmar agenda, responder dúvidas operacionais e executar rotina de caixa dentro da política. Negociações financeiras, descontos, cancelamentos e exceções devem ser encaminhados à gerência.",
+    "interactions": [
+      "Clientes",
+      "Gerente",
+      "Coordenadora comercial",
+      "Consultoras",
+      "Nutricionista",
+      "Equipe técnica",
+      "Auxiliar financeiro"
+    ],
+    "goals30": [
+      "Dominar agenda, sistema, fluxo de chegada e fechamento de caixa.",
+      "Reduzir atrasos e falhas de comunicação.",
+      "Padronizar confirmações e recepção."
+    ],
+    "goals60": [
+      "Organizar rotina de sessões pendentes, faltantes e remarcações.",
+      "Melhorar tempo de resposta e qualidade dos registros.",
+      "Atuar com segurança em caixa e atendimento."
+    ],
+    "goals90": [
+      "Ser referência de experiência do cliente na entrada e saída.",
+      "Manter agenda atualizada, caixa sem divergências e recepção impecável.",
+      "Apoiar retenção e recompra por meio de relacionamento."
+    ]
+  },
+  {
+    "slug": "prime-digital",
+    "title": "Prime Digital",
+    "area": "SDR / Atendimento Digital",
+    "mission": "Realizar o primeiro contato com leads digitais e ativos, qualificar necessidades, criar conexão, gerar compromisso de comparecimento e agendar consultorias de bem-estar e saúde.",
+    "principal": "Leads respondidos rápido, qualificados corretamente, agendamentos realizados, comparecimento estimulado e funil digital registrado.",
+    "responsibilities": [
+      "Atender leads oriundos de WhatsApp, redes sociais, campanhas, parcerias, urnas e indicações.",
+      "Fazer prospecção ativa quando combinado com a gestão.",
+      "Entender dor, objetivo e momento do cliente antes de oferecer agenda.",
+      "Aplicar scripts com naturalidade, empatia e foco em conversão.",
+      "Agendar consultorias e reforçar valor do comparecimento.",
+      "Enviar confirmações, lembretes, vídeos e mensagens de estímulo.",
+      "Registrar origem, status, objeções e próximos passos no sistema/controle.",
+      "Reaquecer leads frios e recuperar oportunidades sem retorno."
+    ],
+    "daily": [
+      "Abrir canais digitais e responder pendências.",
+      "Priorizar leads novos e quentes.",
+      "Qualificar, agendar e confirmar.",
+      "Atualizar planilha/CRM/status.",
+      "Acionar coordenadora sobre objeções recorrentes.",
+      "Fazer follow-up de não respondidos e faltantes."
+    ],
+    "indicators": [
+      "Volume de leads",
+      "Tempo de primeira resposta",
+      "Taxa de contato",
+      "Agendamentos",
+      "Comparecimento",
+      "Conversão pós-consultoria",
+      "Custo por lead quando houver mídia",
+      "Leads sem retorno",
+      "Origem dos leads"
+    ],
+    "behaviors": [
+      "Agilidade",
+      "Comunicação persuasiva e humana",
+      "Disciplina de follow-up",
+      "Escuta ativa",
+      "Organização de funil",
+      "Resiliência",
+      "Boa escrita",
+      "Energia positiva em áudio/mensagem"
+    ],
+    "unacceptable": [
+      "Deixar lead sem resposta",
+      "Copiar e colar mensagem fria sem contexto",
+      "Não registrar origem/status",
+      "Forçar promessa irreal",
+      "Responder fora do tom da marca",
+      "Perder histórico do cliente"
+    ],
+    "autonomy": "Autonomia para responder leads, qualificar, agendar e fazer follow-up dentro do script e da política. Exceções comerciais, promessas de desconto e conflitos devem ser direcionados à coordenação/gerência.",
+    "interactions": [
+      "Coordenadora comercial",
+      "Consultoras",
+      "Prime recepção",
+      "Marketing",
+      "Gerente"
+    ],
+    "goals30": [
+      "Dominar script, canais, origem dos leads e critérios de qualificação.",
+      "Implantar rotina de resposta rápida e registro.",
+      "Reduzir leads sem retorno."
+    ],
+    "goals60": [
+      "Melhorar taxa de agendamento e comparecimento.",
+      "Criar cadência de reativação de leads.",
+      "Mapear objeções e ajustar comunicação com a coordenação."
+    ],
+    "goals90": [
+      "Operar funil digital com previsibilidade.",
+      "Atingir metas de agendamento e comparecimento.",
+      "Gerar inteligência sobre canais e qualidade dos leads."
+    ]
+  },
+  {
+    "slug": "nutricionista",
+    "title": "Nutricionista",
+    "area": "Técnica / Saúde / Retenção",
+    "mission": "Conduzir o Programa Nutricional com ética, segurança, acolhimento e método, garantindo adesão, evolução controlada, orientação individualizada e integração com estética e vendas internas.",
+    "principal": "Clientes acompanhados semanalmente, evolução registrada, adesão sustentada, riscos identificados e pelo menos a meta acordada de clientes dentro da evolução esperada.",
+    "responsibilities": [
+      "Realizar consulta inicial com anamnese, análise de laudo técnico, mapa do cliente e contraindicações.",
+      "Explicar o programa, metas, responsabilidades do cliente, uso do app e próximos passos.",
+      "Acompanhar evolução semanal, peso, medidas, registros, dificuldades e mecanismos de defesa.",
+      "Realizar retornos obrigatórios e extras quando necessário.",
+      "Corrigir uso incorreto do app e incentivar registros diários.",
+      "Orientar alimentação, atividade física, estratégias de adesão e alternativas práticas.",
+      "Registrar resumo técnico no prontuário e comunicar alertas à equipe.",
+      "Estimular avaliações, indicações, retenção e venda interna ética."
+    ],
+    "daily": [
+      "Checar agenda, prontuários e clientes fora da meta.",
+      "Preparar consultas com base nos registros.",
+      "Realizar atendimentos com escuta ativa e orientação clara.",
+      "Registrar evolução e próximos combinados.",
+      "Comunicar equipe sobre riscos, faltas ou baixa adesão.",
+      "Acompanhar relatórios de evolução."
+    ],
+    "indicators": [
+      "Clientes dentro da meta",
+      "Adesão ao app",
+      "Retornos realizados no prazo",
+      "Faltas nutricionais",
+      "Evolução de peso/medidas",
+      "Avaliações positivas",
+      "Indicações",
+      "Vendas internas/retenção",
+      "Clientes em alerta clínico"
+    ],
+    "behaviors": [
+      "Ética profissional",
+      "Acolhimento",
+      "Clareza didática",
+      "Firmeza técnica",
+      "Escuta ativa",
+      "Registro disciplinado",
+      "Trabalho em equipe",
+      "Atualização contínua"
+    ],
+    "unacceptable": [
+      "Atender sem registro",
+      "Ignorar contraindicações",
+      "Julgar comportamento alimentar",
+      "Não comunicar risco à equipe",
+      "Prometer resultado sem adesão",
+      "Quebrar sigilo profissional",
+      "Desvalorizar orientação de outro profissional"
+    ],
+    "autonomy": "Autonomia técnica dentro das atribuições do conselho profissional, protocolos e políticas da clínica. Situações clínicas complexas, contraindicações, risco, conflito ou exceção comercial devem ser escaladas ao gestor e/ou responsável técnico conforme o caso.",
+    "interactions": [
+      "Cliente",
+      "Gerente",
+      "Consultora",
+      "Prime",
+      "Biomédica/esteticista/enfermeira",
+      "Responsável técnica",
+      "Médico/parceiros quando aplicável"
+    ],
+    "goals30": [
+      "Dominar protocolos, sistema, app, anamnese, laudo e rotina de retorno.",
+      "Identificar carteira de clientes em alerta.",
+      "Padronizar registro em prontuário."
+    ],
+    "goals60": [
+      "Aumentar adesão ao app e comparecimento aos retornos.",
+      "Melhorar percentual de clientes dentro da meta.",
+      "Integrar melhor nutrição, estética e comercial."
+    ],
+    "goals90": [
+      "Operar agenda nutricional com previsibilidade.",
+      "Ser referência técnica em adesão e retenção.",
+      "Gerar planos de ação para clientes fora da meta."
+    ]
+  },
+  {
+    "slug": "biomedica-esteta",
+    "title": "Biomédica Esteta",
+    "area": "Técnica / Estética Avançada",
+    "mission": "Executar procedimentos estéticos com segurança, técnica, acolhimento e foco em resultado, conectando experiência do cliente, evolução corporal/facial e protocolos da clínica.",
+    "principal": "Procedimentos realizados com padrão técnico, salas preparadas, evolução registrada, clientes orientados e oportunidades de retenção/venda interna identificadas.",
+    "responsibilities": [
+      "Checar agenda, salas, equipamentos, insumos e prontuários antes dos atendimentos.",
+      "Preparar ambiente limpo, organizado, seguro e acolhedor.",
+      "Executar procedimentos corporais e faciais conforme protocolos, habilitação e treinamentos.",
+      "Explicar procedimento, benefícios, cuidados e expectativas de forma simples.",
+      "Realizar evolução semanal, medidas, fotos, pressão quando aplicável e registros.",
+      "Identificar dificuldades de adesão e comunicar nutricionista/coordenação.",
+      "Orientar cliente com postura motivadora e sem julgamento.",
+      "Apoiar vendas internas, indicações e avaliações quando perceber necessidade real."
+    ],
+    "daily": [
+      "Checar agenda e preparar salas.",
+      "Conferir equipamentos e insumos.",
+      "Executar procedimentos no tempo e padrão definidos.",
+      "Registrar evolução e ocorrências.",
+      "Organizar sala após cada atendimento.",
+      "Sinalizar faltas, riscos, baixa adesão ou necessidade de ajuste."
+    ],
+    "indicators": [
+      "Procedimentos realizados",
+      "Ocupação da agenda",
+      "Pontualidade",
+      "Evolução registrada",
+      "Avaliações do cliente",
+      "Vendas internas",
+      "Indicações",
+      "Retrabalho/intercorrências",
+      "Consumo de insumos"
+    ],
+    "behaviors": [
+      "Cuidado técnico",
+      "Organização",
+      "Empatia",
+      "Postura profissional",
+      "Comunicação simples",
+      "Higiene rigorosa",
+      "Proatividade",
+      "Trabalho integrado"
+    ],
+    "unacceptable": [
+      "Executar procedimento sem preparo ou registro",
+      "Ignorar contraindicação",
+      "Deixar sala/equipamento desorganizado",
+      "Prometer resultado garantido",
+      "Comentar corpo do cliente de forma inadequada",
+      "Descumprir biossegurança"
+    ],
+    "autonomy": "Autonomia para executar procedimentos dentro de sua habilitação, protocolo e agenda. Intercorrências, contraindicações, procedimentos fora do escopo, ajustes de protocolo e reclamações devem ser escalados à responsável técnica/gerência.",
+    "interactions": [
+      "Cliente",
+      "Nutricionista",
+      "Prime",
+      "Consultora",
+      "Gerente",
+      "Responsável técnica",
+      "Equipe técnica"
+    ],
+    "goals30": [
+      "Dominar protocolos, salas, equipamentos, registros e agenda.",
+      "Executar atendimentos acompanhados quando necessário.",
+      "Padronizar preparo e fechamento de sala."
+    ],
+    "goals60": [
+      "Atender com autonomia técnica e qualidade percebida.",
+      "Melhorar registros de evolução e comunicação com nutrição.",
+      "Identificar oportunidades de retenção e indicação."
+    ],
+    "goals90": [
+      "Ser referência em segurança, experiência e resultado nos procedimentos.",
+      "Manter produtividade, satisfação e registro consistente.",
+      "Contribuir para vendas internas e fidelização."
+    ]
+  },
+  {
+    "slug": "responsavel-tecnica",
+    "title": "Responsável Técnica",
+    "area": "Técnica / Compliance",
+    "mission": "Responder tecnicamente pelos serviços, protocolos, biossegurança, documentação, equipe técnica e conformidade sanitária, garantindo atendimento seguro e padronizado.",
+    "principal": "Operação técnica segura, documentada, auditável e alinhada às normas profissionais, sanitárias e aos protocolos internos.",
+    "responsibilities": [
+      "Garantir cumprimento de protocolos técnicos, biossegurança, registros, termos e prontuários.",
+      "Orientar equipe técnica sobre condutas, contraindicações, intercorrências e limites de atuação.",
+      "Supervisionar organização de salas, equipamentos, insumos, validade e rastreabilidade.",
+      "Apoiar treinamentos técnicos e reciclagens.",
+      "Analisar riscos, incidentes, reclamações técnicas e necessidade de encaminhamento.",
+      "Manter documentação regulatória e técnica atualizada conforme exigências aplicáveis.",
+      "Atuar como referência técnica para gerente e equipe."
+    ],
+    "daily": [
+      "Verificar ocorrências técnicas e pendências de registros.",
+      "Acompanhar salas, insumos e padrões de biossegurança.",
+      "Orientar profissionais diante de dúvidas ou exceções.",
+      "Checar se protocolos críticos estão sendo cumpridos.",
+      "Registrar correções e treinamentos necessários."
+    ],
+    "indicators": [
+      "Conformidade de prontuários",
+      "Intercorrências",
+      "Pendências sanitárias",
+      "Treinamentos realizados",
+      "Não conformidades técnicas",
+      "Reclamações técnicas",
+      "Validade de insumos",
+      "Auditorias/checklists"
+    ],
+    "behaviors": [
+      "Rigor técnico",
+      "Ética",
+      "Postura educativa",
+      "Atenção a risco",
+      "Comunicação clara",
+      "Firmeza em limites",
+      "Discrição",
+      "Responsabilidade legal"
+    ],
+    "unacceptable": [
+      "Permitir procedimento fora de habilitação",
+      "Ignorar intercorrência",
+      "Assinar sem evidência",
+      "Não registrar orientação técnica",
+      "Flexibilizar biossegurança",
+      "Omitir risco ao gestor"
+    ],
+    "autonomy": "Alta autonomia técnica dentro das normas profissionais e sanitárias. Decisões com impacto jurídico, sanitário ou financeiro devem ser comunicadas imediatamente à gerência/proprietário.",
+    "interactions": [
+      "Gerente",
+      "Equipe técnica",
+      "Nutricionista",
+      "Prime",
+      "Consultoras",
+      "Órgãos reguladores quando aplicável",
+      "Fornecedores técnicos"
+    ],
+    "goals30": [
+      "Mapear protocolos, documentos, riscos e pendências técnicas.",
+      "Implantar checklist de conformidade e registros.",
+      "Orientar equipe sobre pontos críticos."
+    ],
+    "goals60": [
+      "Regularizar pendências e treinar equipe em padrões técnicos.",
+      "Criar rotina de auditoria de prontuários e salas.",
+      "Reduzir falhas de registro e biossegurança."
+    ],
+    "goals90": [
+      "Manter operação técnica auditável e segura.",
+      "Criar plano preventivo de riscos e treinamentos.",
+      "Ser referência técnica contínua da unidade."
+    ]
+  },
+  {
+    "slug": "esteticista",
+    "title": "Esteticista",
+    "area": "Técnica / Estética",
+    "mission": "Executar procedimentos estéticos permitidos à função com cuidado, padrão, higiene, acolhimento e foco na experiência e evolução do cliente.",
+    "principal": "Atendimentos realizados no padrão, salas organizadas, evolução acompanhada, clientes bem orientados e agenda produtiva.",
+    "responsibilities": [
+      "Preparar sala, maca, equipamentos e insumos.",
+      "Executar procedimentos corporais e faciais dentro do escopo e treinamento.",
+      "Explicar o procedimento, benefícios, sensações esperadas e cuidados.",
+      "Acompanhar medidas/evolução quando aplicável.",
+      "Manter vínculo positivo com cliente, estimulando adesão ao programa.",
+      "Comunicar dificuldades, faltas, baixa adesão ou intercorrências à equipe.",
+      "Zelar por higiene, organização e conservação dos equipamentos.",
+      "Apoiar venda interna e indicação quando houver necessidade real do cliente."
+    ],
+    "daily": [
+      "Checar agenda, sala e materiais.",
+      "Receber cliente pelo nome e confirmar procedimento.",
+      "Executar atendimento com pontualidade.",
+      "Registrar evolução e observações.",
+      "Organizar sala após atendimento.",
+      "Sinalizar necessidades de reposição ou manutenção."
+    ],
+    "indicators": [
+      "Procedimentos realizados",
+      "Ocupação da agenda",
+      "Pontualidade",
+      "Satisfação do cliente",
+      "Evolução registrada",
+      "Vendas internas",
+      "Indicações",
+      "Faltas/reagendamentos"
+    ],
+    "behaviors": [
+      "Acolhimento",
+      "Higiene",
+      "Organização",
+      "Cuidado com detalhes",
+      "Comunicação simples",
+      "Postura motivadora",
+      "Disciplina de registro",
+      "Trabalho em equipe"
+    ],
+    "unacceptable": [
+      "Atender sem preparo de sala",
+      "Descumprir protocolo",
+      "Não registrar evolução",
+      "Ignorar contraindicação",
+      "Falar de forma negativa sobre cliente/equipe",
+      "Prometer resultado garantido"
+    ],
+    "autonomy": "Autonomia para executar procedimentos dentro do escopo treinado e autorizado. Intercorrências, dúvidas técnicas, reclamações e contraindicações devem ser encaminhadas à responsável técnica/gerência.",
+    "interactions": [
+      "Cliente",
+      "Prime",
+      "Nutricionista",
+      "Biomédica",
+      "Responsável técnica",
+      "Gerente"
+    ],
+    "goals30": [
+      "Dominar protocolos, agenda, salas e registros.",
+      "Executar procedimentos com supervisão quando necessário.",
+      "Padronizar organização e atendimento."
+    ],
+    "goals60": [
+      "Atender com autonomia e qualidade percebida.",
+      "Melhorar evolução e comunicação com equipe.",
+      "Contribuir para adesão e retenção."
+    ],
+    "goals90": [
+      "Manter produtividade e satisfação consistentes.",
+      "Ser confiável em rotina, registro e cuidado.",
+      "Identificar oportunidades de melhoria de experiência."
+    ]
+  },
+  {
+    "slug": "enfermeira-esteta",
+    "title": "Enfermeira Esteta",
+    "area": "Técnica / Procedimentos Injetáveis e Estética",
+    "mission": "Realizar procedimentos estéticos compatíveis com a formação e habilitação, com segurança, acolhimento, registro técnico e integração com o plano de cuidado do cliente.",
+    "principal": "Procedimentos executados com segurança, documentação correta, cliente orientado, intercorrências prevenidas e experiência profissional percebida.",
+    "responsibilities": [
+      "Avaliar indicação, contraindicação, termo, histórico e prontuário antes do procedimento.",
+      "Preparar materiais, sala, assepsia, insumos e descarte conforme biossegurança.",
+      "Executar procedimentos permitidos conforme habilitação, protocolo e legislação aplicável.",
+      "Explicar benefícios, riscos, cuidados pré e pós-procedimento.",
+      "Registrar lote, produto, técnica, áreas, intercorrências e orientações.",
+      "Acompanhar retornos, evolução, satisfação e necessidade de ajuste.",
+      "Comunicar responsável técnica/gerência em situações de risco, reclamação ou exceção."
+    ],
+    "daily": [
+      "Checar agenda, prontuários, termos e materiais.",
+      "Preparar sala com padrão de biossegurança.",
+      "Realizar atendimento técnico e orientação.",
+      "Registrar procedimento completo.",
+      "Acompanhar pós-atendimento e pendências."
+    ],
+    "indicators": [
+      "Procedimentos realizados",
+      "Conformidade de termos/prontuários",
+      "Retornos realizados",
+      "Intercorrências",
+      "Satisfação",
+      "Reclamações",
+      "Consumo/rastreabilidade de insumos",
+      "Venda ética de continuidade"
+    ],
+    "behaviors": [
+      "Precisão técnica",
+      "Biossegurança",
+      "Comunicação calma",
+      "Postura profissional",
+      "Ética",
+      "Registro rigoroso",
+      "Acolhimento",
+      "Prudência"
+    ],
+    "unacceptable": [
+      "Proceder sem termo ou avaliação",
+      "Ignorar contraindicação",
+      "Omitir intercorrência",
+      "Não registrar lote/produto",
+      "Prometer resultado absoluto",
+      "Atuar fora da habilitação"
+    ],
+    "autonomy": "Autonomia técnica nos procedimentos autorizados pela habilitação, conselho, protocolos e clínica. Situações de risco, intercorrência, procedimento fora do escopo e reclamações devem ser escaladas imediatamente.",
+    "interactions": [
+      "Cliente",
+      "Responsável técnica",
+      "Gerente",
+      "Prime",
+      "Consultora",
+      "Equipe técnica"
+    ],
+    "goals30": [
+      "Dominar protocolos, termos, registros e fluxo de sala.",
+      "Mapear procedimentos autorizados e limites técnicos.",
+      "Padronizar pós-atendimento."
+    ],
+    "goals60": [
+      "Atender com autonomia e documentação impecável.",
+      "Reduzir riscos de retrabalho/intercorrência.",
+      "Integrar melhor venda consultiva e cuidado técnico."
+    ],
+    "goals90": [
+      "Ser referência de segurança e experiência em procedimentos avançados.",
+      "Manter satisfação, retorno e registro sem falhas.",
+      "Contribuir para protocolos e treinamentos internos."
+    ]
+  },
+  {
+    "slug": "auxiliar-administrativo-financeiro",
+    "title": "Auxiliar Administrativo-Financeiro",
+    "area": "Administrativo / Financeiro / RH",
+    "mission": "Apoiar a gestão administrativa, financeira, de estoque, documentos, compras, cobranças e departamento pessoal, garantindo organização e dados confiáveis para decisão.",
+    "principal": "Rotina financeira e administrativa organizada, caixa conferido, contas controladas, documentos em dia, estoque monitorado e gestor informado.",
+    "responsibilities": [
+      "Auxiliar recrutamento, seleção, documentação, admissões, demissões, férias, atestados, ponto e escala.",
+      "Executar contato com contabilidade e envio de documentos.",
+      "Realizar abertura/fechamento/conferência de caixa, relatórios financeiros, boletos, notas, contas a pagar e receber.",
+      "Atualizar sistema financeiro diariamente e preparar agendamentos bancários.",
+      "Organizar recebimentos e cobranças, reportando situações críticas.",
+      "Controlar manutenção, prestadores, reparos e compras.",
+      "Monitorar estoque de insumos, limpeza, escritório, produtos, uniformes e materiais.",
+      "Auxiliar reuniões, relatórios e distratos/rescisões contratuais com clientes."
+    ],
+    "daily": [
+      "Conferir caixa e movimentações.",
+      "Atualizar contas a pagar/receber e sistema financeiro.",
+      "Verificar cobranças e inadimplências.",
+      "Organizar documentos para contabilidade/gestão.",
+      "Monitorar estoque crítico.",
+      "Acompanhar pendências administrativas e prestadores."
+    ],
+    "indicators": [
+      "Caixa sem divergência",
+      "Contas pagas no prazo",
+      "Recebíveis acompanhados",
+      "Inadimplência",
+      "Notas/boletos emitidos",
+      "Estoque mínimo",
+      "Compras planejadas",
+      "Documentos enviados no prazo",
+      "Pendências de manutenção"
+    ],
+    "behaviors": [
+      "Organização",
+      "Precisão",
+      "Confidencialidade",
+      "Senso de prazo",
+      "Visão sistêmica",
+      "Cordialidade",
+      "Atenção a detalhe",
+      "Proatividade silenciosa"
+    ],
+    "unacceptable": [
+      "Atrasar pagamento sem aviso",
+      "Lançar informação sem conferência",
+      "Expor dados financeiros",
+      "Perder comprovantes/documentos",
+      "Não reportar inadimplência crítica",
+      "Comprar sem aprovação quando exigido"
+    ],
+    "autonomy": "Autonomia para executar rotinas financeiras e administrativas conforme política. Pagamentos, compras relevantes, acordos, distratos, exceções financeiras e decisões de RH devem ser aprovados pelo gerente/proprietário.",
+    "interactions": [
+      "Gerente",
+      "Prime",
+      "Contabilidade",
+      "Fornecedores",
+      "Prestadores",
+      "Equipe técnica",
+      "Clientes em cobrança/distrato"
+    ],
+    "goals30": [
+      "Dominar sistemas, caixa, documentos, contas e estoque.",
+      "Organizar pendências financeiras e administrativas.",
+      "Criar rotina diária de conferência."
+    ],
+    "goals60": [
+      "Reduzir atrasos, divergências e pendências de documentação.",
+      "Implantar controle de estoque e compras recorrentes.",
+      "Apoiar cobrança e recebíveis com previsibilidade."
+    ],
+    "goals90": [
+      "Operar administrativo-financeiro com baixa dependência do gerente.",
+      "Entregar relatórios confiáveis e agenda financeira organizada.",
+      "Ser ponto de controle de documentos, estoque e obrigações."
+    ]
+  },
+  {
+    "slug": "auxiliar-servicos-gerais",
+    "title": "Auxiliar de Serviços Gerais",
+    "area": "Apoio Operacional / Limpeza",
+    "mission": "Garantir limpeza, organização, higiene e suporte operacional dos ambientes, contribuindo para segurança, conforto e boa experiência do cliente e da equipe.",
+    "principal": "Clínica limpa, organizada, abastecida, segura e pronta para atendimento durante todo o expediente.",
+    "responsibilities": [
+      "Limpar recepção, salas, banheiros, copa, áreas comuns e apoio.",
+      "Repor materiais de higiene, limpeza, descartáveis e itens de uso comum.",
+      "Apoiar organização de salas entre atendimentos quando solicitado.",
+      "Sinalizar falta de materiais, manutenção, sujeira crítica ou risco.",
+      "Seguir checklist diário e padrões de higiene.",
+      "Manter discrição diante de clientes, documentos e conversas internas."
+    ],
+    "daily": [
+      "Executar checklist de abertura/limpeza.",
+      "Revisar banheiros e recepção ao longo do dia.",
+      "Repor materiais.",
+      "Organizar copa e áreas comuns.",
+      "Descartar resíduos conforme orientação.",
+      "Comunicar necessidades ao administrativo/gerência."
+    ],
+    "indicators": [
+      "Checklist cumprido",
+      "Ambientes sem reclamação",
+      "Reposição feita no prazo",
+      "Ocorrências de limpeza",
+      "Materiais críticos sinalizados",
+      "Pontualidade"
+    ],
+    "behaviors": [
+      "Discrição",
+      "Capricho",
+      "Agilidade",
+      "Responsabilidade",
+      "Atenção a detalhes",
+      "Cordialidade",
+      "Organização",
+      "Compromisso com higiene"
+    ],
+    "unacceptable": [
+      "Ignorar sujeira ou risco",
+      "Expor conversas internas",
+      "Deixar banheiro sem reposição",
+      "Misturar produtos de forma insegura",
+      "Não avisar falta de material",
+      "Circular sem postura profissional"
+    ],
+    "autonomy": "Autonomia para executar rotina de limpeza e sinalizar necessidades. Compras, manutenção e mudanças de padrão devem ser aprovadas pelo administrativo/gerente.",
+    "interactions": [
+      "Prime",
+      "Auxiliar administrativo-financeiro",
+      "Gerente",
+      "Equipe técnica",
+      "Clientes de forma cordial e discreta"
+    ],
+    "goals30": [
+      "Conhecer ambientes, checklist, produtos e horários críticos.",
+      "Garantir padrão mínimo diário de limpeza.",
+      "Criar hábito de sinalizar materiais e manutenção."
+    ],
+    "goals60": [
+      "Manter clínica organizada sem necessidade de cobrança constante.",
+      "Reduzir falhas de reposição e limpeza.",
+      "Apoiar melhor fluxo de salas e recepção."
+    ],
+    "goals90": [
+      "Ser referência de cuidado e higiene na operação.",
+      "Antecipar necessidades de limpeza e material.",
+      "Contribuir para experiência premium do cliente."
+    ]
+  },
+  {
+    "slug": "fisioterapeuta-dermato-funcional",
+    "title": "Fisioterapeuta Dermato Funcional",
+    "area": "Técnica / Fisioterapia Dermato Funcional",
+    "mission": "Avaliar e executar condutas dermato funcionais com foco em segurança, evolução clínica, estética, funcionalidade, adesão e experiência do cliente.",
+    "principal": "Clientes avaliados e tratados com plano técnico coerente, evolução registrada, protocolos seguros e integração com nutrição/estética.",
+    "responsibilities": [
+      "Realizar avaliação funcional e estética conforme escopo profissional.",
+      "Executar procedimentos e terapias permitidos à fisioterapia dermato funcional.",
+      "Orientar cuidados, frequência, expectativas e adesão.",
+      "Registrar evolução, medidas, fotos e resposta ao tratamento.",
+      "Identificar contraindicações, riscos e necessidade de encaminhamento.",
+      "Apoiar equipe na correlação entre estética, nutrição e funcionalidade."
+    ],
+    "daily": [
+      "Checar agenda e prontuários.",
+      "Preparar sala, equipamentos e materiais.",
+      "Atender, orientar e registrar.",
+      "Acompanhar evolução e comunicar pontos de atenção.",
+      "Zelar pela organização e biossegurança."
+    ],
+    "indicators": [
+      "Procedimentos realizados",
+      "Evolução registrada",
+      "Adesão ao plano",
+      "Satisfação",
+      "Faltas/reagendamentos",
+      "Intercorrências",
+      "Vendas internas/continuidade"
+    ],
+    "behaviors": [
+      "Precisão técnica",
+      "Acolhimento",
+      "Didática",
+      "Organização",
+      "Ética",
+      "Trabalho em equipe",
+      "Cuidado com segurança",
+      "Foco em evolução"
+    ],
+    "unacceptable": [
+      "Atuar fora do escopo",
+      "Não registrar evolução",
+      "Ignorar contraindicação",
+      "Prometer resultado absoluto",
+      "Descuidar de biossegurança",
+      "Não comunicar risco"
+    ],
+    "autonomy": "Autonomia técnica dentro da habilitação profissional e protocolos. Riscos, intercorrências e exceções devem ser comunicados à responsável técnica/gerência.",
+    "interactions": [
+      "Cliente",
+      "Nutricionista",
+      "Biomédica",
+      "Esteticista",
+      "Gerente",
+      "Responsável técnica"
+    ],
+    "goals30": [
+      "Conhecer protocolos, equipamentos e fluxo de registro.",
+      "Mapear principais perfis de cliente e restrições.",
+      "Padronizar avaliação e evolução."
+    ],
+    "goals60": [
+      "Atender com autonomia e consistência técnica.",
+      "Melhorar integração com nutrição e estética.",
+      "Reduzir faltas e aumentar adesão."
+    ],
+    "goals90": [
+      "Ser referência em conduta dermato funcional.",
+      "Manter satisfação e evolução consistente.",
+      "Contribuir para planos integrados e retenção."
+    ]
+  },
+  {
+    "slug": "transformadora",
+    "title": "Transformadora",
+    "area": "Comercial / Avaliação Inicial",
+    "mission": "Conduzir a transformação/avaliação inicial, conectando o desejo do cliente aos dados, à necessidade de mudança e ao plano de solução da clínica.",
+    "principal": "Avaliações bem conduzidas, cliente consciente do problema e do caminho, dados registrados e oportunidade comercial entregue com qualidade à consultora/coordenadora.",
+    "responsibilities": [
+      "Receber o cliente para avaliação com acolhimento e escuta ativa.",
+      "Coletar dados, medidas, informações de objetivo, histórico, dores e expectativas.",
+      "Aplicar instrumentos de avaliação conforme padrão.",
+      "Explicar dados de forma simples, sem julgamento e com foco em solução.",
+      "Preparar cliente para a consultoria/venda com consciência de valor.",
+      "Registrar informações críticas e sinalizar perfil, objeções e oportunidades."
+    ],
+    "daily": [
+      "Checar avaliações agendadas.",
+      "Preparar sala, equipamentos e materiais.",
+      "Realizar avaliação e registro.",
+      "Comunicar consultora sobre perfil e pontos relevantes.",
+      "Organizar sala e documentos."
+    ],
+    "indicators": [
+      "Avaliações realizadas",
+      "Comparecimento",
+      "Qualidade do registro",
+      "Conversão pós-avaliação",
+      "Tempo de atendimento",
+      "Satisfação inicial",
+      "Indicações geradas"
+    ],
+    "behaviors": [
+      "Acolhimento",
+      "Didática",
+      "Energia positiva",
+      "Discrição",
+      "Organização",
+      "Escuta sem julgamento",
+      "Cuidado com dados pessoais",
+      "Foco em solução"
+    ],
+    "unacceptable": [
+      "Constranger cliente",
+      "Usar dados para julgamento",
+      "Não registrar informações",
+      "Atrasar avaliação",
+      "Prometer resultado",
+      "Criar medo em vez de consciência"
+    ],
+    "autonomy": "Autonomia para conduzir avaliação dentro do protocolo. Negociação comercial, diagnóstico técnico fora do escopo e situações sensíveis devem ser encaminhados à consultora/nutricionista/gerência.",
+    "interactions": [
+      "Consultora",
+      "Coordenadora comercial",
+      "Nutricionista",
+      "Prime",
+      "Gerente"
+    ],
+    "goals30": [
+      "Dominar instrumentos, roteiro e registros da avaliação.",
+      "Aprender a comunicar dados com acolhimento.",
+      "Padronizar passagem de informações à consultora."
+    ],
+    "goals60": [
+      "Melhorar qualidade das avaliações e conexão com o cliente.",
+      "Reduzir falhas de registro.",
+      "Apoiar aumento de conversão."
+    ],
+    "goals90": [
+      "Ser referência em avaliação inicial.",
+      "Gerar consciência, confiança e base para venda consultiva.",
+      "Manter alto padrão de experiência inicial."
+    ]
+  },
+  {
+    "slug": "redes-sociais-clinica",
+    "title": "Responsável por Redes Sociais da Clínica",
+    "area": "Marketing / Conteúdo Local",
+    "mission": "Planejar, produzir e organizar conteúdos locais que fortaleçam autoridade, relacionamento, prova social e geração de demanda para a clínica.",
+    "principal": "Redes sociais atualizadas com conteúdo alinhado à marca, rotina da clínica, campanhas, provas sociais e chamadas para agendamento.",
+    "responsibilities": [
+      "Planejar calendário de conteúdo alinhado às campanhas e metas comerciais.",
+      "Produzir registros de bastidores, equipe, tratamentos, depoimentos e provas sociais permitidas.",
+      "Garantir linguagem, imagem e postura compatíveis com a marca.",
+      "Apoiar divulgação de ofertas, eventos, parcerias e ações locais.",
+      "Interagir com comentários e mensagens conforme alinhamento com Prime Digital.",
+      "Organizar banco de imagens, autorizações e materiais.",
+      "Medir alcance, engajamento, mensagens geradas e leads."
+    ],
+    "daily": [
+      "Verificar calendário e demandas de conteúdo.",
+      "Captar imagens/vídeos da rotina com autorização.",
+      "Publicar ou programar conteúdos.",
+      "Sinalizar oportunidades de pauta.",
+      "Acompanhar comentários, mensagens e métricas básicas."
+    ],
+    "indicators": [
+      "Publicações realizadas",
+      "Alcance",
+      "Engajamento",
+      "Mensagens recebidas",
+      "Leads gerados",
+      "Cliques/agendamentos",
+      "Provas sociais coletadas",
+      "Regularidade de postagem"
+    ],
+    "behaviors": [
+      "Criatividade com critério",
+      "Organização",
+      "Senso estético",
+      "Cuidado com imagem",
+      "Agilidade",
+      "Respeito à privacidade",
+      "Comunicação leve",
+      "Foco comercial"
+    ],
+    "unacceptable": [
+      "Publicar cliente sem autorização",
+      "Prometer resultado proibido",
+      "Usar imagem desalinhada à marca",
+      "Abandonar calendário",
+      "Responder de forma informal demais",
+      "Divulgar informação sensível"
+    ],
+    "autonomy": "Autonomia para propor pautas e executar conteúdos aprovados. Campanhas, ofertas, uso de imagem de cliente e temas sensíveis devem seguir aprovação da gestão e regras da marca.",
+    "interactions": [
+      "Coordenadora comercial",
+      "Prime digital",
+      "Gerente",
+      "Equipe técnica",
+      "Clientes autorizados"
+    ],
+    "goals30": [
+      "Organizar calendário, identidade visual e banco de conteúdos.",
+      "Mapear campanhas e principais serviços.",
+      "Implantar rotina de captação."
+    ],
+    "goals60": [
+      "Publicar com regularidade e medir métricas básicas.",
+      "Gerar mais mensagens/leads qualificados.",
+      "Aumentar provas sociais e bastidores relevantes."
+    ],
+    "goals90": [
+      "Criar presença local consistente e alinhada ao comercial.",
+      "Transformar conteúdo em agenda e autoridade.",
+      "Manter fluxo de conteúdo sem depender de improviso."
+    ]
+  },
+  {
+    "slug": "estagiaria",
+    "title": "Estagiária",
+    "area": "Apoio Operacional / Aprendizagem",
+    "mission": "Apoiar rotinas operacionais, administrativas ou técnicas conforme formação e supervisão, aprendendo padrões da clínica e contribuindo para organização e atendimento.",
+    "principal": "Demandas de apoio executadas com atenção, aprendizado contínuo, registros corretos e respeito aos limites de atuação do estágio.",
+    "responsibilities": [
+      "Apoiar atendimento, organização, registros e preparação de materiais conforme orientação.",
+      "Observar e aprender fluxos, protocolos, linguagem e padrões da clínica.",
+      "Executar tarefas compatíveis com estágio e supervisão.",
+      "Comunicar dúvidas, erros e dificuldades rapidamente.",
+      "Manter postura profissional, ética e cordial com clientes e equipe."
+    ],
+    "daily": [
+      "Receber prioridades do supervisor.",
+      "Apoiar organização de materiais e ambientes.",
+      "Executar tarefas administrativas ou operacionais permitidas.",
+      "Registrar aprendizados e dúvidas.",
+      "Solicitar validação antes de atividades críticas."
+    ],
+    "indicators": [
+      "Tarefas concluídas",
+      "Pontualidade",
+      "Aprendizado demonstrado",
+      "Erros reduzidos",
+      "Feedback do supervisor",
+      "Organização de materiais"
+    ],
+    "behaviors": [
+      "Curiosidade",
+      "Humildade para aprender",
+      "Atenção",
+      "Pontualidade",
+      "Cordialidade",
+      "Responsabilidade",
+      "Comunicação de dúvida",
+      "Respeito a limites"
+    ],
+    "unacceptable": [
+      "Atuar sem supervisão quando exigido",
+      "Omitir erro",
+      "Assumir promessa ao cliente",
+      "Desrespeitar sigilo",
+      "Executar procedimento fora do escopo",
+      "Falta de pontualidade recorrente"
+    ],
+    "autonomy": "Baixa a média, conforme maturidade e escopo do estágio. Atividades críticas devem ser supervisionadas e validadas.",
+    "interactions": [
+      "Supervisor direto",
+      "Prime",
+      "Equipe técnica",
+      "Gerente",
+      "Clientes em apoio"
+    ],
+    "goals30": [
+      "Conhecer áreas, rotina, regras de postura e limites de atuação.",
+      "Executar tarefas simples com segurança.",
+      "Criar rotina de feedback com supervisor."
+    ],
+    "goals60": [
+      "Assumir tarefas recorrentes de apoio com menor dependência.",
+      "Demonstrar evolução em organização e comunicação.",
+      "Reduzir erros operacionais."
+    ],
+    "goals90": [
+      "Contribuir para fluxo da clínica com autonomia proporcional.",
+      "Estar preparada para novas responsabilidades.",
+      "Manter padrão profissional consistente."
+    ]
+  },
+  {
+    "slug": "vigia",
+    "title": "Vigia",
+    "area": "Segurança Patrimonial / Apoio",
+    "mission": "Zelar pela segurança patrimonial, controle de acesso, observação preventiva e apoio ao funcionamento seguro da unidade.",
+    "principal": "Ambiente monitorado, acessos observados, riscos comunicados e rotina de segurança cumprida com discrição.",
+    "responsibilities": [
+      "Controlar entrada e saída conforme orientação da unidade.",
+      "Observar movimentações suspeitas e comunicar responsáveis.",
+      "Apoiar abertura/fechamento conforme procedimento.",
+      "Zelar por patrimônio, portas, luzes, equipamentos e ocorrências externas.",
+      "Manter postura discreta, cordial e preventiva.",
+      "Registrar ou comunicar ocorrências relevantes."
+    ],
+    "daily": [
+      "Conferir pontos de acesso.",
+      "Observar movimentação de clientes, equipe e entorno.",
+      "Apoiar abertura/fechamento.",
+      "Comunicar ocorrências imediatamente.",
+      "Manter-se atento e disponível."
+    ],
+    "indicators": [
+      "Ocorrências registradas",
+      "Falhas de acesso",
+      "Pontualidade",
+      "Comunicações preventivas",
+      "Checklists de abertura/fechamento",
+      "Incidentes evitados"
+    ],
+    "behaviors": [
+      "Atenção constante",
+      "Discrição",
+      "Cordialidade",
+      "Responsabilidade",
+      "Prontidão",
+      "Calma",
+      "Comunicação objetiva",
+      "Postura preventiva"
+    ],
+    "unacceptable": [
+      "Abandonar posto",
+      "Dormir em serviço",
+      "Tratar cliente de forma rude",
+      "Omitir ocorrência",
+      "Permitir acesso indevido",
+      "Comentar assuntos internos"
+    ],
+    "autonomy": "Autonomia para observar, orientar acessos simples e comunicar riscos. Situações de conflito, ameaça ou decisão crítica devem ser escaladas ao responsável e autoridades quando necessário.",
+    "interactions": [
+      "Gerente",
+      "Prime",
+      "Auxiliar administrativo",
+      "Equipe",
+      "Clientes/visitantes"
+    ],
+    "goals30": [
+      "Conhecer rotina, acessos, horários e responsáveis.",
+      "Aprender procedimentos de abertura/fechamento.",
+      "Criar padrão de comunicação de ocorrências."
+    ],
+    "goals60": [
+      "Atuar preventivamente com menor supervisão.",
+      "Reduzir falhas de acesso e comunicação.",
+      "Manter presença discreta e segura."
+    ],
+    "goals90": [
+      "Ser referência de segurança e confiança operacional.",
+      "Antecipar riscos e apoiar fechamento/abertura com consistência.",
+      "Manter registros e comunicação preventiva."
+    ]
+  }
+]
