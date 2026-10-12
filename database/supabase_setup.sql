@@ -68,11 +68,26 @@ CREATE TABLE IF NOT EXISTS "EvaluationAnswer" (
   "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TABLE IF NOT EXISTS "AppUser" (
+  "id" TEXT PRIMARY KEY DEFAULT gen_random_uuid()::text,
+  "companyId" TEXT NOT NULL REFERENCES "Company"("id") ON DELETE CASCADE ON UPDATE CASCADE,
+  "name" TEXT NOT NULL,
+  "email" TEXT NOT NULL UNIQUE,
+  "passwordHash" TEXT NOT NULL,
+  "role" TEXT NOT NULL,
+  "functionRoleId" TEXT REFERENCES "FunctionRole"("id") ON DELETE SET NULL ON UPDATE CASCADE,
+  "collaboratorId" TEXT REFERENCES "Collaborator"("id") ON DELETE SET NULL ON UPDATE CASCADE,
+  "active" BOOLEAN NOT NULL DEFAULT true,
+  "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
 CREATE INDEX IF NOT EXISTS "Collaborator_companyId_idx" ON "Collaborator"("companyId");
 CREATE INDEX IF NOT EXISTS "FunctionRole_companyId_idx" ON "FunctionRole"("companyId");
 CREATE INDEX IF NOT EXISTS "Evaluation_companyId_idx" ON "Evaluation"("companyId");
 CREATE INDEX IF NOT EXISTS "Evaluation_roleId_idx" ON "Evaluation"("roleId");
 CREATE INDEX IF NOT EXISTS "EvaluationAnswer_evaluationId_idx" ON "EvaluationAnswer"("evaluationId");
+CREATE INDEX IF NOT EXISTS "AppUser_companyId_idx" ON "AppUser"("companyId");
+CREATE INDEX IF NOT EXISTS "AppUser_role_idx" ON "AppUser"("role");
 
 INSERT INTO "Company" ("id", "name")
 VALUES ('00000000-0000-4000-8000-000000000001', 'Empresa Modelo RJLF')
