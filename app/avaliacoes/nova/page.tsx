@@ -1,7 +1,13 @@
 import { prisma } from "@/lib/prisma";
+import { getCurrentUser } from "@/lib/auth";
+import { redirect } from "next/navigation";
 import AvaliacaoForm from "./AvaliacaoForm";
 
 export default async function NovaAvaliacaoPage({ searchParams }: { searchParams: { roleId?: string } }) {
+  const current = await getCurrentUser();
+  if (!current) redirect("/login");
+  if (current?.role === "COLABORADOR") redirect("/meu-rcf");
+
   const roles = await prisma.functionRole.findMany({
     orderBy: [{ title: "asc" }]
   });
