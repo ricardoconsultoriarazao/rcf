@@ -1,6 +1,12 @@
 import { prisma } from "@/lib/prisma";
+import { getCurrentUser } from "@/lib/auth";
+import { redirect } from "next/navigation";
 
 export default async function AvaliacoesPage() {
+  const current = await getCurrentUser();
+  if (!current) redirect("/login");
+  if (current?.role === "COLABORADOR") redirect("/meu-rcf");
+
   const evaluations = await prisma.evaluation.findMany({
     include: { role: true, collaborator: true },
     orderBy: { createdAt: "desc" },
