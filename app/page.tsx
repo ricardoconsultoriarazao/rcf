@@ -1,10 +1,17 @@
 import { prisma } from "@/lib/prisma";
+import { getCurrentUser } from "@/lib/auth";
+import { redirect } from "next/navigation";
 
 export default async function DashboardPage() {
-  const [companies, roles, evaluations] = await Promise.all([
+  const current = await getCurrentUser();
+  if (!current) redirect("/login");
+  if (current?.role === "COLABORADOR") redirect("/meu-rcf");
+
+  const [companies, roles, evaluations, users] = await Promise.all([
     prisma.company.count(),
     prisma.functionRole.count(),
-    prisma.evaluation.count()
+    prisma.evaluation.count(),
+    prisma.appUser.count()
   ]);
 
   return (
@@ -30,11 +37,15 @@ export default async function DashboardPage() {
           <h2>{evaluations}</h2>
           <p>Avaliacoes registradas</p>
         </div>
+        <div className="card">
+          <h2>{users}</h2>
+          <p>Usuarios cadastrados</p>
+        </div>
       </section>
 
       <section className="panel">
         <h2>Proximas acoes</h2>
-        <p><a className="button" href="/funcoes">Ver RCFs</a> <a className="button secondary" href="/avaliacoes/nova">Criar avaliacao</a></p>
+        <p><a className="button" href="/funcoes">Ver RCFs</a> <a className="button secondary" href="/avaliacoes/nova">Criar avaliacao</a> <a className="button secondary" href="/usuarios">Criar usuarios</a></p>
       </section>
     </main>
   );

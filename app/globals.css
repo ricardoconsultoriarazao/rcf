@@ -146,6 +146,10 @@ li {
   gap: 14px;
 }
 
+.grid-span {
+  grid-column: 1 / -1;
+}
+
 label {
   display: block;
   font-weight: 800;
@@ -230,11 +234,63 @@ textarea {
   font-weight: 700;
 }
 
+.success {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.table {
+  display: grid;
+  gap: 8px;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 1.1fr 1.3fr .8fr 1.2fr .6fr .8fr;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 0;
+}
+
+.table-head {
+  font-weight: 800;
+  color: var(--green);
+}
+
+.no-print {
+  margin-top: 12px;
+}
+
+@media print {
+  .topbar,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+
+  main {
+    max-width: none;
+    padding: 0;
+  }
+
+  .hero,
+  .card,
+  .panel {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+}
+
 @media (max-width: 860px) {
   .grid,
   .grid-3,
   .list,
-  .score {
+  .score,
+  .table-row {
     grid-template-columns: 1fr;
   }
 }
