@@ -1,5 +1,6 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import { Prisma } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import { getCurrentUser, hashPassword } from "@/lib/auth";
 
@@ -24,28 +25,39 @@ async function createUser(formData: FormData) {
     ? await prisma.functionRole.findUnique({ where: { id: functionRoleId } })
     : null;
 
-  const collaborator = role === "COLABORADOR"
-    ? await prisma.collaborator.create({
+  try {
+    await prisma.$transaction(async (tx) => {
+      const collaborator = role === "COLABORADOR"
+        ? await tx.collaborator.create({
+            data: {
+              companyId: company.id,
+              name,
+              email,
+              roleTitle: functionRole?.title || null
+            }
+          })
+        : null;
+
+      await tx.appUser.create({
         data: {
           companyId: company.id,
           name,
           email,
-          roleTitle: functionRole?.title || null
+          passwordHash: hashPassword(password),
+          role,
+          functionRoleId,
+          collaboratorId: collaborator?.id || null
         }
-      })
-    : null;
-
-  await prisma.appUser.create({
-    data: {
-      companyId: company.id,
-      name,
-      email,
-      passwordHash: hashPassword(password),
-      role,
-      functionRoleId,
-      collaboratorId: collaborator?.id || null
+      });
+    });
+  } catch (error) {
+    if (error instanceof Prisma.PrismaClientKnownRequestError && error.code === "P2002") {
+      redirect("/usuarios?erro=email");
     }
-  });
+
+    console.error("Erro ao criar usuario", error);
+    redirect("/usuarios?erro=banco");
+  }
 
   revalidatePath("/usuarios");
   redirect("/usuarios?sucesso=1");
@@ -86,7 +98,9 @@ export default async function UsuariosPage({ searchParams }: { searchParams: { e
       </section>
 
       {searchParams.sucesso ? <p className="success">Usuario criado com sucesso.</p> : null}
-      {searchParams.erro ? <p className="error">Confira nome, e-mail e senha com pelo menos 6 caracteres.</p> : null}
+      {searchParams.erro === "email" ? <p className="error">Este e-mail ja esta cadastrado. Use outro e-mail ou inative o usuario existente.</p> : null}
+      {searchParams.erro === "banco" ? <p className="error">Nao foi possivel salvar no banco. Confirme se o SQL atualizado foi executado no Supabase.</p> : null}
+      {searchParams.erro && !["email", "banco"].includes(searchParams.erro) ? <p className="error">Confira nome, e-mail e senha com pelo menos 6 caracteres.</p> : null}
 
       <section className="panel">
         <h2>Novo usuario</h2>
