@@ -1,6 +1,12 @@
 import { prisma } from "@/lib/prisma";
+import { getCurrentUser } from "@/lib/auth";
+import { redirect } from "next/navigation";
 
 export default async function FuncoesPage() {
+  const current = await getCurrentUser();
+  if (!current) redirect("/login");
+  if (current?.role === "COLABORADOR") redirect("/meu-rcf");
+
   const roles = await prisma.functionRole.findMany({
     orderBy: [{ area: "asc" }, { title: "asc" }]
   });
