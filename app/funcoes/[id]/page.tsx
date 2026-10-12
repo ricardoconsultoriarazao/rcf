@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma";
-import { notFound } from "next/navigation";
+import { getCurrentUser } from "@/lib/auth";
+import { notFound, redirect } from "next/navigation";
 
 function List({ items }: { items: unknown }) {
   const list = Array.isArray(items) ? items : [];
@@ -7,6 +8,10 @@ function List({ items }: { items: unknown }) {
 }
 
 export default async function FuncaoPage({ params }: { params: { id: string } }) {
+  const current = await getCurrentUser();
+  if (!current) redirect("/login");
+  if (current?.role === "COLABORADOR" && current.functionRoleId !== params.id) redirect("/meu-rcf");
+
   const role = await prisma.functionRole.findUnique({ where: { id: params.id } });
   if (!role) notFound();
 
