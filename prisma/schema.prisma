@@ -1,1 +1,86 @@
+generator client {
+  provider = "prisma-client-js"
+}
 
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Company {
+  id            String         @id @default(uuid())
+  name          String
+  createdAt     DateTime       @default(now())
+  collaborators Collaborator[]
+  roles         FunctionRole[]
+  evaluations   Evaluation[]
+}
+
+model Collaborator {
+  id          String       @id @default(uuid())
+  companyId   String
+  name        String
+  email       String?
+  roleTitle   String?
+  createdAt   DateTime     @default(now())
+  company     Company      @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  evaluations Evaluation[]
+}
+
+model FunctionRole {
+  id               String       @id @default(uuid())
+  companyId        String
+  slug             String
+  title            String
+  area             String?
+  mission          String
+  principal        String
+  autonomy         String
+  responsibilities Json
+  daily            Json
+  indicators       Json
+  behaviors        Json
+  unacceptable     Json
+  interactions     Json
+  goals30          Json
+  goals60          Json
+  goals90          Json
+  createdAt        DateTime     @default(now())
+  company          Company      @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  evaluations      Evaluation[]
+
+  @@unique([companyId, slug])
+}
+
+model Evaluation {
+  id             String             @id @default(uuid())
+  companyId      String
+  collaboratorId String?
+  roleId         String
+  cycle          String
+  evaluatorName  String
+  status         String
+  evidence       String?
+  strengths      String?
+  attention      String?
+  agreements     String?
+  finalQuestion  String?
+  createdAt      DateTime           @default(now())
+  company        Company            @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  collaborator   Collaborator?      @relation(fields: [collaboratorId], references: [id], onDelete: SetNull)
+  role           FunctionRole       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  answers        EvaluationAnswer[]
+}
+
+model EvaluationAnswer {
+  id         String     @id @default(uuid())
+  evaluationId String
+  question   String
+  intent     String
+  expected   String
+  answer     String
+  score      Int?
+  observation String?
+  createdAt  DateTime   @default(now())
+  evaluation Evaluation @relation(fields: [evaluationId], references: [id], onDelete: Cascade)
+}
