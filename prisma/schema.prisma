@@ -14,6 +14,7 @@ model Company {
   collaborators Collaborator[]
   roles         FunctionRole[]
   evaluations   Evaluation[]
+  users         AppUser[]
 }
 
 model Collaborator {
@@ -25,6 +26,7 @@ model Collaborator {
   createdAt   DateTime     @default(now())
   company     Company      @relation(fields: [companyId], references: [id], onDelete: Cascade)
   evaluations Evaluation[]
+  users       AppUser[]
 }
 
 model FunctionRole {
@@ -48,8 +50,28 @@ model FunctionRole {
   createdAt        DateTime     @default(now())
   company          Company      @relation(fields: [companyId], references: [id], onDelete: Cascade)
   evaluations      Evaluation[]
+  users            AppUser[]
 
   @@unique([companyId, slug])
+}
+
+model AppUser {
+  id             String        @id @default(uuid())
+  companyId      String
+  name           String
+  email          String        @unique
+  passwordHash   String
+  role           String
+  functionRoleId String?
+  collaboratorId String?
+  active         Boolean       @default(true)
+  createdAt      DateTime      @default(now())
+  company        Company       @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  functionRole   FunctionRole? @relation(fields: [functionRoleId], references: [id], onDelete: SetNull)
+  collaborator   Collaborator? @relation(fields: [collaboratorId], references: [id], onDelete: SetNull)
+
+  @@index([companyId])
+  @@index([role])
 }
 
 model Evaluation {
