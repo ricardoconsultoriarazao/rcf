@@ -110,6 +110,18 @@ CONSULTANT_PASSWORD
 
 configurados na Vercel.
 
-## Observacao importante
+## 8. Criar usuarios
 
-O sistema atual usa login simples do consultor por variaveis de ambiente. Para liberar acesso individual para gestores/clientes, a proxima evolucao recomendada e usar Supabase Auth com usuarios por empresa.
+Depois do login do consultor, acesse:
+
+```text
+/usuarios
+```
+
+Nessa tela e possivel criar:
+
+- Colaborador: acessa somente `/meu-rcf` e imprime apenas o RCF vinculado ao usuario.
+- Avaliador: acessa RCFs e avaliacoes.
+- Consultor: acessa todas as areas, inclusive criacao e inativacao de usuarios.
+
+Para um colaborador, selecione o RCF correspondente no campo "RCF vinculado ao colaborador".
